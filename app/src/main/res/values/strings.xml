@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Peminjaman2</string>
+    <string name="kolom1">No.</string>
+    <string name="kolom2">Nama Alat</string>
+    <string name="kolom3">Jumlah Tersedia</string>
+    <string name="kolom4">Pinjam </string>
+    <string name="baris1">1 </string>
+    <string name="baris2">Resistor </string>
+    <string name="baris3">10 </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

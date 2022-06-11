@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginMhs">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/inputuser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="LOGIN MAHASISWA"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:padding="50dp"
+
+                />
+            <ImageView
+                android:id="@+id/imglogin"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="100dp"
+                android:src="@drawable/logo_polinema"
+
+                />
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginVertical="260dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Masukkan Nama"
+                android:textAlignment="center"
+                android:background="@drawable/kustom"/>
+
+            <EditText
+                android:id="@+id/nim"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginVertical="310dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Masukkan NIM"
+                android:textAlignment="center"
+                android:background="@drawable/kustom"
+                />
+
+            <EditText
+                android:id="@+id/kelas"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginVertical="360dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Masukkan Kelas"
+                android:textAlignment="center"
+                android:background="@drawable/kustom"/>
+
+            <EditText
+                android:id="@+id/prodi"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginVertical="410dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Masukkan Prodi"
+                android:textAlignment="center"
+                android:background="@drawable/kustom"/>
+            <EditText
+                android:id="@+id/kelompok"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginVertical="460dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Masukkan Kelompok"
+                android:textAlignment="center"
+                android:background="@drawable/kustom"/>
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="530dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"
+                android:text="Selanjutnya"
+                android:textStyle="bold"
+                android:textColor="@color/ColorPrimaryDark"
+                android:background="@drawable/kustom_button"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

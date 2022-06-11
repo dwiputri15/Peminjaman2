@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/menu_notif"
+        android:icon="@drawable/notif"
+        android:title="NOTIF"/>
+    <item
+        android:id="@+id/menu_scanQR"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title="SCAN"/>
+    <item
+        android:id="@+id/menu_history"
+        android:icon="@drawable/history"
+        android:title="HISTORY"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="LOGOUT"/>
+
+
+</menu>

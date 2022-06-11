@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Alat Praktikum Yang Dipinjam"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="50dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginVertical="100dp">
+    <TableRow
+        android:background="@color/ColorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kolom1"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kolom2"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kolom3"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kolom4"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/baris1"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/baris2"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="@string/baris3"
+            android:textColor="#000"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            ></EditText>
+    </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
